@@ -327,7 +327,7 @@ def main():
             print(f"{y}👋 Goodbye!{stp}")
             break
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     try:
         main()
     except KeyboardInterrupt:
